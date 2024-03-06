@@ -1,0 +1,32 @@
+.client-container {
+  text-align: center;
+  margin-top: 50px; /* Позиціонування компонента */
+}
+
+.input-field {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.start-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.results-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.results-list li {
+  margin-bottom: 5px;
+}
